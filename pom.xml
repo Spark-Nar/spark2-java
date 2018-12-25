@@ -14,6 +14,12 @@
             <artifactId>spark-sql_2.11</artifactId>
             <version>2.4.0</version>
         </dependency>
+
+        <dependency> <!-- Spark dependency For Spark 1 RDD approach -->
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.4.0</version>
+        </dependency>
     </dependencies>
 
 
